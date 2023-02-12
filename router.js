@@ -10,6 +10,7 @@ const credential = {
 }
 
 
+//Router.post() submits the data whereas router.get() requests the data.
 
 // login user
 router.post('/login', (req, res)=>{
